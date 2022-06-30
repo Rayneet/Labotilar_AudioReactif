@@ -1109,6 +1109,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-173::obj-9" : [ "playlist~", "playlist~", 0 ],
 			"obj-1::obj-1::obj-1" : [ "umenu[1]", "umenu", 0 ],
 			"obj-1::obj-1::obj-8" : [ "textedit[1]", "textedit", 0 ],
 			"obj-1::obj-2::obj-1" : [ "umenu[2]", "umenu", 0 ],
@@ -1127,92 +1128,85 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "Punto_y_Seguido-glued.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "audioAnalysers~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_AnimationPresets.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_AudioAnalyserV4.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_AudioInputManager.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_OscMasterClock.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_OscOutputs.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_OscRemoteControl.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_event.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_localProtoSend.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_scenographie_V2.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_setOscAddresses.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/patchers",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patchPreset.json",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_Sequencing/data",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1

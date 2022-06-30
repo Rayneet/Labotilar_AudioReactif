@@ -55,13 +55,24 @@
 					"originallength" : [ 0 ],
 					"originaltempo" : 0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 861.630708456039429, 281.0, 150.0, 92.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
 					"presentation_rect" : [ 216.594671487808228, 81.948812305927277, 442.0, 244.0 ],
 					"quality" : 0,
-					"timestretch" : [ 0 ]
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "playlist~",
+							"parameter_shortname" : "playlist~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"timestretch" : [ 0 ],
+					"varname" : "playlist~"
 				}
 
 			}
@@ -763,8 +774,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 771.912267923355103, 922.811615586280823, 114.0, 22.0 ],
-					"text" : "mc.send~ audioIn 2"
+					"patching_rect" : [ 771.912267923355103, 922.811615586280823, 134.0, 22.0 ],
+					"text" : "mc.send~ stereoInput 2"
 				}
 
 			}
