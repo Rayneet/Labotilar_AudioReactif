@@ -45,8 +45,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 814.0, 301.488371968269348, 104.0, 22.0 ],
-					"text" : "r toLightController"
+					"patching_rect" : [ 814.0, 301.488371968269348, 55.0, 22.0 ],
+					"text" : "r toProto"
 				}
 
 			}

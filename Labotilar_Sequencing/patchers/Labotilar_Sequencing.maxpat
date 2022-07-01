@@ -55,7 +55,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1653.703676104545593, 1781.481451749801636, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1259.259238243103027, 1678.436036467552185, 1016.888874053955078, 470.592586874961853 ],
+					"presentation_rect" : [ 1259.259238243103027, 1678.436036467552185, 1016.888874053955078, 684.592586874961853 ],
 					"varname" : "p_scenographie_V2",
 					"viewvisibility" : 1
 				}
@@ -378,13 +378,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "p_AudioInputManager.maxpat",
+					"name" : "p_AudioInputManagerV2.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 0.0, 514.249074935913086, 649.886577963829041 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1306.68123733997345, 0.0, 675.691041737164596, 367.296641767024994 ],
+					"presentation_rect" : [ 1306.68123733997345, 0.0, 675.691041737164596, 702.296641767024994 ],
 					"varname" : "p_MC_AudioInputManager",
 					"viewvisibility" : 1
 				}
@@ -1109,7 +1109,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-173::obj-9" : [ "playlist~", "playlist~", 0 ],
 			"obj-1::obj-1::obj-1" : [ "umenu[1]", "umenu", 0 ],
 			"obj-1::obj-1::obj-8" : [ "textedit[1]", "textedit", 0 ],
 			"obj-1::obj-2::obj-1" : [ "umenu[2]", "umenu", 0 ],
@@ -1149,7 +1148,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_AudioInputManager.maxpat",
+				"name" : "p_AudioInputManagerV2.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Labotilar_AudioReactif/Labotilar_Sequencing/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
