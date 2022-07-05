@@ -1123,6 +1123,34 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "01_Punto_y_seguido_part1.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar",
+				"patcherrelativepath" : "../../../Sources/Labotilar",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "01_punto y seguido Klap1.mp3",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar",
+				"patcherrelativepath" : "../../../Sources/Labotilar",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "02_Musique-SoloAngel .mp3",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar",
+				"patcherrelativepath" : "../../../Sources/Labotilar",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "03_part 3 8Temps 2 .mp3",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar",
+				"patcherrelativepath" : "../../../Sources/Labotilar",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
