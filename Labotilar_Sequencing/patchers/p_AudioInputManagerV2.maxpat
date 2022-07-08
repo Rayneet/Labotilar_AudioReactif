@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 860.268243134021759, 412.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-82",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -67,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 979.0, 150.0, 48.0 ],
+					"patching_rect" : [ 155.0, 979.0, 150.0, 47.0 ],
 					"text" : "Remote input switcher for instrumental perforrmances"
 				}
 
@@ -2148,11 +2160,11 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\GPI-QUADRO\\Documents\\Labotilar\\01_Punto_y_seguido_part1.wav",
+								"absolutepath" : "01_Punto_y_seguido_part1.wav",
 								"filename" : "01_Punto_y_seguido_part1.wav",
 								"filekind" : "audiofile",
 								"id" : "u672000798",
-								"selection" : [ 0.254385964912281, 0.447368421052632 ],
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -2160,7 +2172,7 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\GPI-QUADRO\\Documents\\Labotilar\\02_Punto_y_seguido_part2.wav",
+								"absolutepath" : "02_Punto_y_seguido_part2.wav",
 								"filename" : "02_Punto_y_seguido_part2.wav",
 								"filekind" : "audiofile",
 								"id" : "u743000796",
@@ -2172,11 +2184,11 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\GPI-QUADRO\\Documents\\Labotilar\\03_Punto_y_seguido_part3.wav",
+								"absolutepath" : "03_Punto_y_seguido_part3.wav",
 								"filename" : "03_Punto_y_seguido_part3.wav",
 								"filekind" : "audiofile",
 								"id" : "u438000797",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.996880723759532, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -2184,7 +2196,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar/01_Punto_y_seguido_part1.wav",
+								"absolutepath" : "01_Punto_y_seguido_part1.wav",
 								"filename" : "01_Punto_y_seguido_part1.wav",
 								"filekind" : "audiofile",
 								"id" : "u864001122",
@@ -2196,7 +2208,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar/01_punto y seguido Klap1.mp3",
+								"absolutepath" : "01_punto y seguido Klap1.mp3",
 								"filename" : "01_punto y seguido Klap1.mp3",
 								"filekind" : "audiofile",
 								"id" : "u516002350",
@@ -2208,7 +2220,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar/02_Musique-SoloAngel .mp3",
+								"absolutepath" : "02_Musique-SoloAngel .mp3",
 								"filename" : "02_Musique-SoloAngel .mp3",
 								"filekind" : "audiofile",
 								"id" : "u105002348",
@@ -2220,7 +2232,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Labotilar/03_part 3 8Temps 2 .mp3",
+								"absolutepath" : "03_part 3 8Temps 2 .mp3",
 								"filename" : "03_part 3 8Temps 2 .mp3",
 								"filekind" : "audiofile",
 								"id" : "u778002349",
@@ -2674,12 +2686,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-76",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1548.646368503570557, 501.934398052465554, 50.0, 22.0 ],
-					"text" : "0."
+					"patching_rect" : [ 1548.646368503570557, 501.934398052465554, 50.0, 35.0 ],
+					"text" : "0.996881"
 				}
 
 			}
@@ -4049,7 +4062,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 1073.758344352245331, 501.426222801208496, 931.584299325942993, 501.426222801208496 ],
+					"midpoints" : [ 1073.758344352245331, 494.293083399534225, 931.584299325942993, 494.293083399534225 ],
 					"order" : 1,
 					"source" : [ "obj-153", 0 ]
 				}
@@ -4058,7 +4071,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"midpoints" : [ 1073.758344352245331, 494.293083399534225, 1177.801121234893799, 494.293083399534225 ],
+					"midpoints" : [ 1073.758344352245331, 479.293083399534225, 1177.801121234893799, 479.293083399534225 ],
 					"order" : 0,
 					"source" : [ "obj-153", 0 ]
 				}
@@ -4901,6 +4914,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-84", 0 ]
 				}
 
 			}
